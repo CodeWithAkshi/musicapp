@@ -1,0 +1,33 @@
+name: hustleapp
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.42  # Audio playback package (if you are using it)
+  audioplayers: ^6.1.0  # Audio player package (if you are using it)
+  animated_splash_screen: ^1.3.0  # Animated splash screen
+  on_audio_query: ^2.9.0  # Query local audio files
+  permission_handler: ^11.3.1  # Permission handler for storage and media access
+  get: ^4.6.5  # State management package
+  cupertino_icons: ^1.0.8  # Cupertino icons for iOS style
+  lottie: ^3.1.3  # Lottie animation package
+  carousel_slider: ^5.0.0  # Carousel slider for image/slider features
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0  # Lints for good coding practices
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/  # Ensure the assets directory is correctly set up
+    - assets/assets/audio/ 
